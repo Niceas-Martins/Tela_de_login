@@ -1,0 +1,96 @@
+body {
+    margin: 29px;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 284px;
+    height: 563px;
+    text-align: center;
+    background-color: #40DE63;
+    border-radius: 16px;
+}
+
+h2 {
+    margin-top: 100px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+p {
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    color: #40DE63;
+    font-family: "Poppins", sans-serif;
+}
+
+form {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 30px;
+}
+
+input {
+    width: 450px;
+    height: 34px;
+    background-color: #F5F5F5;
+    text-align: center;
+}
+
+fieldset {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+main {
+    margin: auto;
+
+    justify-content: flex-start;
+    display: flex;
+    width: 944px;
+    height: 561px;
+    border-radius: 20px;
+    box-shadow: 10px 9px 10px 0px rgba(216, 213, 213, 0.988);
+}
+
+div {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.submit {
+    border: none;
+    text-align: center;
+    margin-left: auto; 
+    margin-right: auto;
+    color: white;
+    width: 336px;
+    height: 48px;
+    border-radius: 16px;
+    background-color: #40DE63;
+}
+
+.Entre {
+    background-color: #40DE63;
+    border: 4px solid white;
+    border-radius: 16px;
+    width: 167px;
+    margin: auto;
+    margin-top: 70px;
+    height: 60px;
+    text-align: center;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}

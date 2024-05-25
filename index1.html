@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            margin: 29px;
+        }
+
+        main {
+       
+            margin: auto;
+            width: 944px;
+            height: 561px;
+            border-radius: 16px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            box-shadow: 10px 9px 10px 0px rgba(216, 213, 213, 0.988);
+        }
+
+        h1 {
+            color: #40DE63;
+            font-family: "Poppins", sans-serif;
+            text-align: center;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            gap: 30px;
+        }
+        p{
+            margin-top: 2px;
+            color: rgb(91, 165, 239);
+        }
+        
+        input {
+            width: 450px;
+            height: 34px;
+            background-color: #F5F5F5;
+            text-align: center;
+        }
+         
+        .Login{
+             border: none;
+             color: white;
+             background-color: #40DE63;
+             border-radius: 16px;
+             margin: auto;
+             margin-bottom: 100px;
+             width: 336px;
+             height: 48px;
+        }
+        fieldset{
+            border: none;
+        }
+
+        footer {
+            border-radius: 0px 0px 16px 16px;
+            width: 946.89px;
+            height: 96.07px;
+            text-align: center;
+            background-color: #40DE63;
+        }
+        
+        .submit1{
+            border-radius: 16px;
+            border: 4px solid white;
+            margin-top: 10px;
+            width: 176px;
+            height: 60px;
+            background-color: #40DE63;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <form>
+            <header>
+                <h1>LOGIN</h1>
+            </header>
+            <fieldset>
+                <label for="E-mail"><input type="email" name="E-mail" id="E-mail" placeholder="E-mail">
+                </label>
+            </fieldset>
+            <fieldset>
+                <label for="Password"><input type="password" name="Password" id="Password" placeholder="Password">
+                </label>
+                <p>I forgot the password ?</p>
+            </fieldset>
+
+        </form>
+        <button type="submit" class="Login">LOGIN</button>
+
+        <footer><button type="submit" class="submit1">SUBMIT</button></footer>
+    </main>
+</body>
+<script src="index.js"></script>
+</html>
